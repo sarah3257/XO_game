@@ -1,0 +1,24 @@
+﻿body {
+    margin:auto;
+    text-align:center;
+}
+#d1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 0vw;
+    height: 0vw;
+    border:none;
+}
+div {
+    width: 13vw;
+    height: 13vw;
+    border: solid 5px black;
+    background-image: url(\"p.jpg\");
+    margin: auto;
+    text-align: center;
+}
+p{
+    font-size:50px;
+    color:brown;
+}
